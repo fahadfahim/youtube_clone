@@ -1,0 +1,34 @@
+.profileOption {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  width: 300px;
+  background-color: #ffffff;
+  /* padding: 20px; */
+}
+.profileOpt__head {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+.profileOpt__info {
+  margin-left: 15px;
+}
+.profileOpt__info > h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.mannage_link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #3ea6ff;
+}
+.profileOption > hr {
+  height: 1px;
+  border: 0;
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

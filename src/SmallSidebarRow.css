@@ -1,0 +1,20 @@
+.smallsidebarRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.smallsidebarRow__title {
+  font-size: x-small;
+  font-weight: 400;
+}
+.smallsidebarRow > .smallsidebarRow__icon {
+  color: #606060;
+}
+.smallsidebarRow.selected > .smallsidebarRow__icon {
+  color: red;
+}
+.smallsidebarRow.selected > .sidebarRow__title {
+  font-weight: bold;
+}

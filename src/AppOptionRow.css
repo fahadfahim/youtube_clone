@@ -1,0 +1,37 @@
+.appsidebarRow {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+.appsidebarRow__icon {
+  color: #fd0000;
+  font-size: large !important;
+}
+.appsidebarRow__title {
+  /* flex: 1; */
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23px;
+}
+.appsidebarRow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+/* .sidebarRow:hover > .sidebarRow__icon {
+    color: red;
+  } */
+.appsidebarRow:hover > .sidebarRow__title {
+  font-weight: bold;
+  white-space: nowrap;
+}
+.appsidebarRow.selected {
+  background-color: lightgray;
+}
+.appsidebarRow.selected > .sidebarRow__icon {
+  color: red;
+}
+.sidebarRow.selected > .sidebarRow__title {
+  font-weight: bold;
+}

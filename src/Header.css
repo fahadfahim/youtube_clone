@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.youtube__home {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 14px;
+}
+.youtube__home h3 {
+  margin-left: 3px;
+  font-weight: 900;
+  font-size: 23px;
+}
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 609px;
+
+  border: 1px solid lightgray;
+}
+.header__input input[type="text"] {
+  font-size: 20px;
+}
+.mic__icon {
+  margin-left: -100px;
+  display: flex;
+  align-items: center;
+  color: #606060;
+}
+.header__input > input {
+  flex: 1;
+  border: none;
+  padding: 0 10px 0 10px;
+  height: 30px;
+}
+.header__inputButton {
+  width: 50px !important;
+  /* height: 50px !important; */
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+  font-size: 25px !important;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.header__icon {
+  margin-right: 20px;
+  color: #606060;
+  cursor: pointer;
+}
+.menu__icon {
+  color: #606060;
+  cursor: pointer;
+}
+.profile {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .header__input {
+    width: 250px;
+  }
+  .mic__icon {
+    display: none;
+  }
+}
